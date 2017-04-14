@@ -1,0 +1,122 @@
+body {
+	background: #FAF5E6;
+
+}
+
+.main-head {
+	background: #B8A05A;
+
+}
+
+/** Projects **/
+.card {
+	padding: 30px;
+}
+.screenshot {
+     background: #434a52;
+     box-shadow: 0 0 50px 10px rgba(0, 0, 0, .8); 
+}
+.screenshot:hover {
+      transform: scale(1.1);
+}
+
+.personal-img {
+      background:  #B8A05A;
+     box-shadow: 0 0 50px 10px rgba(0, 0, 0, .8); 
+    }
+
+
+/*** Contact **/
+
+.contact-info {
+   color: #B8A05A;
+
+}
+.phone,
+.mail,
+.twitter {
+    fill: #B8A05A; 
+}
+.comments {
+    padding: 30px;
+}
+
+
+.about-card {
+ 
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 6px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, .8); 
+}
+.about-card:hover {
+  border-color: #B8A05A;
+}
+
+ul.skills {
+  
+}
+
+.skills li {
+  border-radius: 6px;
+  
+  background: #B8A05A;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #4863A0;
+}
+
+
+/***Footer**/
+ .contact-foot {
+    padding: 1.5rem 3rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color:  #B8A05A;
+}
+footer .row {
+    max-width: 100%;
+}
+footer .columns {
+    padding-left: 0;
+}
+footer .copy {
+    margin-top: 5%;
+}
+footer .social {
+  padding-left: 200px;
+  text-align: right;
+}
+footer .icon {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(125, 136, 146, .3);
+    border-radius: 50%;
+}
+footer p {
+    color: rgb(125, 136, 146);
+    font-family: "Ubuntu";
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-top: 0.5rem;
+}
+.contact-foot {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+
+
+
+
