@@ -1,37 +1,70 @@
-body {
-	background: #FAF5E6;
+  body {
+  background: #FAF5E6;
+  }
 
-}
 .jumbotron {
   background: #B8A05A;
 margin-right: 0;
 margin-left: 0;
 }
-
 .main-head {
-	background: #B8A05A;
-
+  background: #B8A05A;
 }
 
+/** Fix for mobile dropdown**/
+.dropdown-backdrop {
+    position: static;
+}
+/** photo-overlay **/
+.photo-overlay {
+  position: absolute;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: .5s;
+  color: #fff;
+  top: 0;
+    right: 30px;
+    bottom: 45px;
+    left: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, .85);
+   border-radius: 8px;
+}
+.photo-overlay:hover {
+  opacity: 1;
+}
+
+/** buttons **/
+.github-live {
+  margin-top: 40px;
+}
 /** Projects **/
 .card {
-	padding: 10px;
+  padding: 10px;
 }
 .screenshot {
+   position: relative;
+  overflow: hidden;
      background: #434a52;
      box-shadow: 0 0 50px 10px rgba(0, 0, 0, .8); 
-     width: 90%;
+     width: 100%;
      height: 300px;
 }
 .screenshot:hover {
       transform: scale(1.1);
 }
-
 .personal-img {
       background:  #B8A05A;
      box-shadow: 0 0 50px 10px rgba(0, 0, 0, .8); 
     }
-
 
 /*** Contact **/
 .contact-box {
@@ -41,11 +74,9 @@ margin-left: 0;
 .contact-info {
    color: #B8A05A;
 }
-
 .comments {
     padding: 30px;
 }
-
 .about-card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -60,7 +91,6 @@ margin-left: 0;
 .about-card:hover {
   border-color: #B8A05A;
 }
-
 .skills li {
   border-radius: 6px;
   background: #B8A05A;
@@ -68,22 +98,18 @@ margin-left: 0;
   padding: 5px 10px;
   margin: 2px;
 }
-
 .skills li:nth-child(odd) {
   background: #4863A0;
 }
-
 
 /***Footer**/
 
 footer .row {
     max-width: 100%;
 }
-
 footer .copy {
     margin-top: 5%;
 }
-
 footer .column {
   padding: 5px;
 }
@@ -100,10 +126,7 @@ footer p {
     font-weight: 300;
     padding-top: 0.5rem;
 }
-
-
 @media (min-width: 321px) {
-
       .card {
         padding: 30px;
       }
@@ -113,8 +136,7 @@ footer p {
     }
      .comments-section {
       margin-bottom: 150px;
-     }
-   
+     } 
 }
 
 
