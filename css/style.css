@@ -1,14 +1,23 @@
   body {
-  background: #FAF5E6;
+  background: #F4F1FE;
   }
 
 .jumbotron {
-  background: #B8A05A;
+  
 margin-right: 0;
 margin-left: 0;
 }
 .main-head {
-  background: #B8A05A;
+  background-image: url("../img/IMG_4961_copy.JPG");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ height: 400px;
+ color: #fff;
+}
+.main-head1 {
+background-color: #9370F0;
 }
 
 /** Fix for mobile dropdown**/
@@ -72,7 +81,7 @@ margin-left: 0;
   padding-left: 50px;
 }
 .contact-info {
-   color: #B8A05A;
+   color: #9370F0;
 }
 .comments {
     padding: 30px;
@@ -89,11 +98,11 @@ margin-left: 0;
   box-shadow: 0 0 30px 10px rgba(0, 0, 0, .8); 
 }
 .about-card:hover {
-  border-color: #B8A05A;
+  border-color: #9370F0;
 }
 .skills li {
   border-radius: 6px;
-  background: #B8A05A;
+  background: #9370F0;
   color: white;
   padding: 5px 10px;
   margin: 2px;
